@@ -1,0 +1,36 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xc7f69a44d48082DAbdF0f5B0FA387b288a740b60",
+      "txHash": "0x99603d7f8eff2a355ca2d8faf7aac3d4543c0c944396940c1de99b3250e3bc3f",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "472c056c09b2c2bba804837b8870cf765e7f0273c13567127dba807fe19ed08f": {
+      "address": "0xc0b26b2b44f6874D4C7A562772075A1cbA54AC77",
+      "txHash": "0x44c3aa5a278649aead821a2dc500a8c424e977dc60ca8ed485aacad5775f4630",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "message",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Swisstronik",
+            "src": "contracts/Hello_swtr.sol:5"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}
